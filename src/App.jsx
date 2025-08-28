@@ -80,7 +80,7 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div className={`flex flex-col w-full h-full`}
+      <div className={`flex-1 flex flex-col w-full sm:w-full h-full`}
         onClick={() => setIsSidebarOpen(false)}
       >
         {/* Chat Area */}
