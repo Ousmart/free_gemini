@@ -54,7 +54,7 @@ function App() {
     <div className="flex h-screen bg-zinc-900 text-zinc-100 sm:text-xs">
       {/* Sidebar */}
       <div
-        className={`fixed md:static top-0 left-0 h-screen w-64 bg-zinc-800 p-4 transform transition-transform duration-300 z-40
+        className={`fixed md:static top-0 left-0 h-screen min-h-0 w-64 bg-zinc-800 p-4 transform transition-transform duration-300 z-40
           flex flex-col justify-between
           ${isSidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
           `
