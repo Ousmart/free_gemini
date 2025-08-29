@@ -69,7 +69,7 @@ function App() {
         </div>
         
         <div>
-          <button className='relative w-full hover:bg-zinc-600 hover:cursor-pointer p-2 text-red-500
+          <button className='relative w-full bg-zinc-300 hover:cursor-pointer p-2 text-white
             font-semibold rounded-lg rainbow-hover px-4 py-2
           '
             onClick={clearHistory}
@@ -80,7 +80,7 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div className={`flex-1 flex flex-col w-full sm:w-full h-full`}
+      <div className={`flex-1 flex flex-col w-full sm:w-full h-full justify-between`}
         onClick={() => setIsSidebarOpen(false)}
       >
         {/* Chat Area */}
@@ -109,7 +109,7 @@ function App() {
         </div>
 
         {/* Input Section (sticky bottom like ChatGPT) */}
-        <div className="p-3 border-t border-zinc-700 bg-zinc-900 sticky bottom-0">
+        <div className="p-3 border-t border-zinc-700 bg-zinc-900">
           <div className="flex items-center gap-2">
             <textarea
               rows={1}
